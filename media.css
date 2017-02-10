@@ -1,0 +1,110 @@
+/* xs */
+
+@media (max-width:370px) {
+    .info p {
+        font-size: 14px;
+    }
+    
+    .info .avatar {
+        width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+    
+    .story h1 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:767px) {
+    .countdown h1 , .story h1 {
+        font-size: 3em;
+    }
+    
+    .deliever h1 {
+        font-size: 3em;
+    }
+    
+    .deliever p {
+        font-size: 15px;
+    }
+    
+    .deliever h5 {
+        font-size: 15px;
+    }
+    
+}
+
+/* sm */
+
+@media (min-width:768px) {
+    .countdown h1 , .story h1 {
+        font-size: 4em;
+    }
+    
+    
+}
+
+/* md */
+
+@media (min-width:992px) {
+    .countdown h1 , .deliever h1 , .story h1 {
+        font-size: 5em;
+    }
+    
+    
+}
+
+/* lg */
+
+@media (min-width:1200px) {
+    .countdown h1 , .story h1 {
+        font-size: 5.5em;
+    }
+    
+    .col-lg-push-6 {
+        left: 50%;
+    }
+    
+    .col-lg-6 {
+        float: left;
+        width: 50%;
+    }
+    
+    .col-lg-pull-6 {
+        right: 50%;
+    }
+    
+    .col-lg-6 {
+        float: left;
+        width: 50%;
+    }
+    
+    .container {
+    width: 1300px;
+}
+}
+
+/*mobile navigation menu*/
+
+@media(max-width:997px) {
+    .toggle {
+       display: block;
+    }
+    .links {
+       display: none;
+    }
+    .navbar .container .links ul li {
+       display: block;
+       text-align: center;
+       padding: 10px;
+    }
+    .navbar .container .links ul {
+       float: none;
+    }
+    .navbar .container .logo {
+       padding-top: 10px;
+    }
+ }
+
+
